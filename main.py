@@ -78,6 +78,7 @@ def death_countdown(count):
 
 
 def activate(event=None):
+    """Starts the program"""
     global started_typing, first_death_timer_started, main_timer_finished
     if not started_typing:
         main_countdown(MAIN_SECONDS_REMAINING)
